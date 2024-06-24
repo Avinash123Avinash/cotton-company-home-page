@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100;
+    width: 100;
+}
+#main{
+width: 100vw;
+height: 100vh;
+background-color: white;
+}
+
+#nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    /* background-color: brown; */
+    justify-content: flex-end;
+    align-items: center;
+    justify-items: space;
+    gap: 30px;
+    padding: 0 30px;
+
+}
+.nav-elem{
+    font-family: playfair Display;
+    display: block;
+    font-weight: 900;
+    justify-self: end;
+}
+.nav-elem{
+    font-size: 20px;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 15px;
+}
+#class{
+    width: 100%;
+    height: 270px;
+    /* background-color: brown; */
+    padding: 40px 80px;
+}
+#class h4{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 65px;
+}
+#class-in{
+    width: 100%;
+    height: 200px;
+    /* background-color: brown; */
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+#class-in p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+#Right{
+width: 20%;
+height: 20px;
+bottom: 130px;
+margin-top: -45px;
+}
+.ele{
+    padding: 15px 0px;
+  
+    border-top: 2px solid black;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ele a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+  
+}
+.ele i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.ele:hover{
+    background-color: rgb(209, 207, 207)
+}
+.ele:hover i{
+opacity: 1;
+
+}
+.ele:hover a{
+    text-decoration: underline;
+   
+}
+#bottom{
+    margin-top: -60px;
+    width:100%;
+    height: 30%;
+    background-color: red;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664391994320-a8a5713b9b2e?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 32%;
+}
+
